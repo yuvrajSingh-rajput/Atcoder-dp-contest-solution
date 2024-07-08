@@ -1,13 +1,5 @@
 #include<bits/stdc++.h>
-using ll = long long;
-const long double pi=3.141592653589793238462;
-const long long mod = 1e9+7;
 using namespace std;
-
-ll max(ll a, ll b) { return (a > b) ? a : b;}
-ll min(ll a, ll b) { return (a < b) ? a : b;}
-ll gcd(ll a, ll b) { return b == 0 ? a : gcd(b, a % b);}
-ll lcm(ll a, ll b) { return (a * 1LL * b) / gcd(a, b);}
 
 void solve(){
     int N;
